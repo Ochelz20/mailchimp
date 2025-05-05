@@ -88,7 +88,7 @@ nav {
     width: 100%;
 }
 
-h1 {
+.header-turn {
     font-size: 60px;
     font-family: "Means Web", Georgia, Times, "Times New Roman", serif;
 }
@@ -354,7 +354,7 @@ section{
     
 }
 
-.pos1{
+.pos1, .pos2, .pos3, .pos4{
     position: absolute; 
     font-size: 35px;
     left: 10%;
@@ -364,35 +364,6 @@ section{
 
 }
 
-.pos2{
-    position: absolute; 
-    font-size: 35px;
-    left: 10%;
-    top: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    z-index: 2;
-
-}
-
-.pos3{
-    position: absolute; 
-    font-size: 35px;
-    left: 10%;
-    top: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    z-index: 2;
-
-}
-
-.pos4{
-    position: absolute; 
-    font-size: 35px;
-    left: 10%;
-    top: 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    z-index: 2;
-
-}
 
 .big:hover .pos1{
    text-decoration: underline; 
@@ -543,7 +514,8 @@ width: 80dvw;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 .can{
     font-size: 20px;
@@ -816,8 +788,122 @@ width: 30px;
 
 @media screen and (max-width:1024px) {
 
+section{
+    flex-wrap: wrap;
+}
 
+.big, .big2, .big3, .big4{
+    width: 50%;
+}
 
+.pos1, .pos2, .pos3, .pos4{
+    font-size: 35px;
+}
+
+.all-num{
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.one{
+    flex-basis: 65%;
+    /* width: 50%; */
+    padding-bottom: 50px;
+}
+
+.num, .num1, num2{
+    font-size: 30px;
+}
+.two, .three{
+    flex-basis: 38%;
+    justify-content: space-between;
+}
+.get{
+    font-size: 50px;
+}
+.all{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.first{
+    width: 90%;
+    
+}
+.get-text, .all-learn{
+font-size: 25px;
+font-weight: 300;
+}
+.all-img{
+width: 82dvw;
+}
+
+.bring{
+width: 50%;
+font-size: 30px;
+}
+
+.canvas{
+    flex-wrap: wrap;
+}
+.big-items{
+    width: 95%;
+}
+.all-canva{
+    flex-basis: 28%;
+}
+.canva-text{
+    font-size: 10px;
+    
+}
+.can{
+    font-size: 13px;
+}
+.canva{
+    width: 100px;
+}
+.all-learn{
+font-size: 17px;
+
+}
+.last-text{
+    font-size: 30px;
+    width: 60dvw;
+}
+
+.foot, footer1{
+    width: 95%;
+    
+}
+
+.link-color{
+    font-size: 12px;
+}
+.rel, .Check{
+    font-size: 15px;
+}
+.foot-icons{
+    width: 20px;
+    
+    
+    }
+.film{
+    font-size: 12px;
+}
 
 
 }
+
+@media screen and (max-width:768){
+
+.header-turn{
+    font-size: 30px; 
+}
+.header-text{
+    width: 100%;
+    font-size: 20px;
+}
+
+}
+    
