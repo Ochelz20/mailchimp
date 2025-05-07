@@ -1241,6 +1241,24 @@ gap: 10px;
     font-size: 50px;
 }
 
+.try-all{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-try{
+    width: 95%;
+}
+.standard-box{
+ /* text-align: center; */
+ align-items: center;
+}
+
+.contact{
+    display: none;
+}
+
 }
 
 @media screen and (max-width:425px) {
@@ -1389,6 +1407,21 @@ h2{
 .bring{
     width: 100%;
 }
+}
 
+@media screen and (max-width:320px) {
+    .pos1, .pos2, .pos3, .pos4{
+
+        font-size: 20px;}
+.pos1, .pos2{
+    left: 15px;
+}
+
+.try{
+    font-size: 35px;
+    
 
 }
+
+}
+
